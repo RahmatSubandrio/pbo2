@@ -7,15 +7,44 @@
     <title>Data Posts - SantriKoding.com</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css">
+
+    <style>
+        body {
+            background: linear-gradient(to right, #3498db, #2980b9); /* Adjust gradient colors */
+            color: #fff; /* Text color */
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            font-family: 'Arial', sans-serif;
+        }
+
+        .container {
+            background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: 50px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Light shadow effect */
+        }
+
+        .card {
+            border: 1px solid rgba(0, 0, 0, 0.125);
+            border-radius: 10px;
+        }
+
+        /* Style adjustments for better visibility of text on the blue gradient background */
+        h3, h5, th, td, .btn {
+            color: #333;
+        }
+    </style>
 </head>
-<body style="background: lightgray">
+<body>
 
     <div class="container mt-5">
         <div class="row">
             <div class="col-md-12">
                 <div>
-                    <h3 class="text-center my-4">Tutorial Laravel 10 untuk Pemula</h3>
-                    <h5 class="text-center"><a href="https://santrikoding.com">www.santrikoding.com</a></h5>         
+                    <h3 class="text-center my-4">Website suban</h3>
+                    <h5 class="text-center"><a href="http://autobytesuban.my.id/" style="color: #333;">http://autobytesuban.my.id/</a></h5>         
                     <hr>
                 </div>
                 <div class="card border-0 shadow-sm rounded">
@@ -67,16 +96,7 @@
     <script src="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
 
     <script>
-        //message with toastr
-        @if(session()->has('success'))
-        
-            toastr.success('{{ session('success') }}', 'BERHASIL!'); 
-
-        @elseif(session()->has('error'))
-
-            toastr.error('{{ session('error') }}', 'GAGAL!'); 
-            
-        @endif
+        // Your existing script here
     </script>
 
 </body>
