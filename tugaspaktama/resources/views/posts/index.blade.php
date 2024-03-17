@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Data Posts - SantriKoding.com</title>
+    <title>Data Posts - Website Suban</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css">
 
     <style>
         body {
-            background: linear-gradient(to right, #3498db, #2980b9); /* Adjust gradient colors */
+            background: linear-gradient(to right, #3498db, #e74c3c); /* Adjust gradient colors */
             color: #fff; /* Text color */
             margin: 0;
             padding: 0;
@@ -31,7 +31,7 @@
             border-radius: 10px;
         }
 
-        /* Style adjustments for better visibility of text on the blue gradient background */
+        /* Style adjustments for better visibility of text on the blue-pink gradient background */
         h3, h5, th, td, .btn {
             color: #333;
         }
@@ -43,7 +43,7 @@
         <div class="row">
             <div class="col-md-12">
                 <div>
-                    <h3 class="text-center my-4">Website suban</h3>
+                    <h3 class="text-center my-4">Website Suban</h3>
                     <h5 class="text-center"><a href="http://autobytesuban.my.id/" style="color: #333;">http://autobytesuban.my.id/</a></h5>         
                     <hr>
                 </div>
